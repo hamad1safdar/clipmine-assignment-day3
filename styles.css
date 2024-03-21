@@ -30,7 +30,7 @@ header {
   align-items: center;
 }
 
-#nav-bar {
+.nav-bar {
   width: 100%;
   background-color: #f8f8f8;
   max-height: 50px;
@@ -60,7 +60,7 @@ header {
   margin-right: 10px;
 }
 
-.banner {
+.signup-banner {
   background-image: url("/public/images/top-section_4360x1500.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -356,7 +356,7 @@ footer a {
 }
 
 @media screen and (max-width: 480px) {
-  #nav-bar {
+  .nav-bar {
     max-height: unset;
     flex-direction: column;
     align-items: center;
@@ -369,7 +369,7 @@ footer a {
     gap: 10px;
   }
 
-  .banner {
+  .signup-banner {
     height: auto;
     padding: 50px 0;
   }
@@ -492,7 +492,7 @@ footer a {
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
-  #nav-bar {
+  .nav-bar {
     max-height: unset;
     flex-direction: column;
     align-items: center;
@@ -505,7 +505,7 @@ footer a {
     gap: 10px;
   }
 
-  .banner {
+  .signup-banner {
     height: auto;
     padding: 50px 0;
   }
