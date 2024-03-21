@@ -381,6 +381,7 @@ footer .links {
 footer .links-internal {
   background-color: #393939;
   text-align: center;
+  padding: 8px;
 }
 
 .links-internal a {
