@@ -171,7 +171,6 @@ main {
   border-radius: 6px;
   padding: 10px;
   width: 85%;
-  /* height: 120px; */
 }
 
 #benefits {
@@ -633,5 +632,124 @@ footer a {
 
   .benefits-container {
     width: 80%;
+  }
+}
+
+@media (min-width: 1441px) {
+  :root {
+    --large-font-size: 36px;
+  }
+
+  .nav-bar {
+    max-height: unset;
+  }
+
+  .logo-container {
+    width: 300px;
+    padding: 10px;
+  }
+
+  .nav-links-container {
+    height: 80px;
+  }
+
+  .nav-links-container span {
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  .banner-btn {
+    width: 300px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .banner-title {
+    font-size: var(--large-font-size);
+  }
+
+  .banner-subtitle {
+    font-size: 24px;
+    width: 100%;
+  }
+
+  .embeddings-title {
+    font-size: var(--large-font-size);
+  }
+
+  .video-title {
+    font-size: 22px;
+  }
+
+  .video-subtitle {
+    font-size: 24px;
+  }
+
+  .action-btn {
+    padding: 12px 18px;
+    font-size: 18px;
+  }
+
+  .features-title {
+    font-size: var(--large-font-size);
+  }
+
+  .feature-component {
+    font-size: 20px;
+  }
+
+  .benefits-title {
+    font-size: var(--large-font-size);
+  }
+
+  .benefit-component {
+    font-size: 24px;
+  }
+
+  .img-section img {
+    height: 140px;
+  }
+
+  .collection-subtitle {
+    font-size: 24px;
+  }
+
+  .collection-title {
+    font-size: var(--large-font-size);
+  }
+
+  .img-title {
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  .users-title {
+    font-size: var(--large-font-size);
+  }
+
+  .url-input {
+    height: 60px;
+  }
+
+  .url-input input {
+    font-size: 24px;
+  }
+
+  .url-input button {
+    font-size: 20px;
+  }
+
+  footer {
+    font-size: 24px;
+  }
+
+  .links {
+    height: 30px;
+    padding: 15px;
+  }
+
+  .links-internal a {
+    margin-right: 10px;
   }
 }
