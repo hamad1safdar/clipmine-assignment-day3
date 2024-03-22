@@ -640,6 +640,14 @@ footer a {
     --large-font-size: 36px;
   }
 
+  .xl-screen-title {
+    font-size: 36px;
+  }
+
+  .xl-screen-subtitle {
+    font-size: 24px;
+  }
+
   .nav-bar {
     max-height: unset;
   }
@@ -665,25 +673,12 @@ footer a {
     font-weight: 600;
   }
 
-  .banner-title {
-    font-size: var(--large-font-size);
-  }
-
   .banner-subtitle {
-    font-size: 24px;
     width: 100%;
-  }
-
-  .embeddings-title {
-    font-size: var(--large-font-size);
   }
 
   .video-title {
     font-size: 22px;
-  }
-
-  .video-subtitle {
-    font-size: 24px;
   }
 
   .action-btn {
@@ -691,32 +686,12 @@ footer a {
     font-size: 18px;
   }
 
-  .features-title {
-    font-size: var(--large-font-size);
-  }
-
   .feature-component {
     font-size: 20px;
   }
 
-  .benefits-title {
-    font-size: var(--large-font-size);
-  }
-
-  .benefit-component {
-    font-size: 24px;
-  }
-
   .img-section img {
     height: 140px;
-  }
-
-  .collection-subtitle {
-    font-size: 24px;
-  }
-
-  .collection-title {
-    font-size: var(--large-font-size);
   }
 
   .img-title {
@@ -724,24 +699,12 @@ footer a {
     font-weight: 600;
   }
 
-  .users-title {
-    font-size: var(--large-font-size);
-  }
-
   .url-input {
     height: 60px;
   }
 
-  .url-input input {
-    font-size: 24px;
-  }
-
   .url-input button {
     font-size: 20px;
-  }
-
-  footer {
-    font-size: 24px;
   }
 
   .links {
